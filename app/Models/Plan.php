@@ -82,6 +82,7 @@ class Plan extends Model
         'sort',
         'renew',
         'content',
+        'external_purchase_url',
         'prices',
         'reset_traffic_method',
         'capacity_limit',

@@ -26,6 +26,7 @@ class PlanSave extends FormRequest
             'id' => 'nullable|integer',
             'name' => 'required|string|max:255',
             'content' => 'nullable|string',
+            'external_purchase_url' => 'nullable|string|max:512',
             'reset_traffic_method' => 'integer|nullable',
             'transfer_enable' => 'integer|required|min:1',
             'prices' => 'nullable|array',

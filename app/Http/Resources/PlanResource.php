@@ -25,6 +25,7 @@ class PlanResource extends JsonResource
             'name' => $this->resource['name'],
             'tags' => $this->resource['tags'],
             'content' => $this->formatContent(),
+            'external_purchase_url' => $this->resource['external_purchase_url'] ?? null,
             ...$this->getPeriodPrices(),
             'capacity_limit' => $this->getFormattedCapacityLimit(),
             'transfer_enable' => $this->resource['transfer_enable'],
