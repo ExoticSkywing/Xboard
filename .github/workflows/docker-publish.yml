@@ -7,7 +7,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: ExoticSkywing/paraspace
+  IMAGE_NAME: exoticskywing/paraspace
 
 jobs:
   build:
